@@ -2,12 +2,12 @@
     "name": "tciles/yaml-diff-extrator",
     "autoload": {
         "psr-4": {
-            "Tciles\\YamlDiffExtrator\\": "src/"
+            "Tciles\\YamlDiffExtractor\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Tciles\\Tests\\YamlDiffExtrator\\": "tests/"
+            "Tciles\\Tests\\YamlDiffExtractor\\": "tests/"
         }
     },
     "authors": [

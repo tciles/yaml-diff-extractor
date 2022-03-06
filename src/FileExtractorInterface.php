@@ -1,8 +1,8 @@
 <?php
 
-namespace Tciles\YamlDiffExtrator;
+namespace Tciles\YamlDiffExtractor;
 
-interface ExtratorInterface
+interface FileExtractorInterface
 {
     /**
      * @param string $source

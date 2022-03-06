@@ -1,10 +1,10 @@
 <?php
 
-namespace Tciles\YamlDiffExtrator;
+namespace Tciles\YamlDiffExtractor;
 
 use Symfony\Component\Yaml\Yaml;
 
-class YamlDiffExtractor implements ExtratorInterface
+class YamlDiffExtractor implements FileExtractorInterface
 {
     public const DEFAULT_INLINE_FROM = 16;
 

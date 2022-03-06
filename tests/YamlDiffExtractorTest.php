@@ -1,14 +1,14 @@
 <?php
 
-namespace Tciles\Tests\YamlDiffExtrator;
+namespace Tciles\Tests\YamlDiffExtractor;
 
 use PHPUnit\Framework\TestCase;
-use Tciles\YamlDiffExtrator\YamlDiffExtractor;
+use Tciles\YamlDiffExtractor\YamlDiffExtractor;
 
 /**
  * @group main
  */
-class YamlDiffExtratorTest extends TestCase
+class YamlDiffExtractorTest extends TestCase
 {
     /**
      * Test extractFiles.
