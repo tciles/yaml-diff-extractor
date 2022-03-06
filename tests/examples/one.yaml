@@ -1,0 +1,16 @@
+str: test
+message:
+  equals: "This is a message"
+  not_equals: "This is a message with changes"
+core:
+  global:
+    flash:
+      success: Success
+      error: Error
+      warning: Warning
+      info: info
+app:
+  roles:
+    admin: admin
+    test: test
+    tester: tester

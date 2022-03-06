@@ -2,13 +2,14 @@
 
 namespace Tciles\YamlDiffExtrator;
 
-use SplFileInfo;
-
 interface ExtratorInterface
 {
     /**
-     * @param SplFileInfo[] $files
+     * @param string $source
+     * @param string $extra
+     * @param string $destination
+     *
      * @return array
      */
-    public function extract(iterable $files = []): array;
+    public static function extractFiles(string $source, string $extra, string $destination = 'output.yaml'): array;
 }

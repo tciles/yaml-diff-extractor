@@ -1,0 +1,14 @@
+message:
+  equals: "This is a message"
+  not_equals: "This is a message"
+app:
+  roles:
+    admin: admin
+    test: test
+str: "
+Lorem ipsum
+"
+core:
+  global:
+    flash:
+      success: Success
